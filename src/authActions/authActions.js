@@ -1,0 +1,7 @@
+export const LOGIN="LOGIN"
+export const LOGOUT="LOGOUT"
+export const FETCHDATA="FETCHDATA"
+export const SIGNIN="SIGNIN"
+export const SIGNUP="SIGNUP"
+export const REGISTER="REGISTER"
+export const NEWTOKEN="NEWTOKEN"

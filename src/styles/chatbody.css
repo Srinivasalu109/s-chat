@@ -1,0 +1,44 @@
+.typemeasage{
+    height: 3rem;
+    width: 66%;
+    outline: none;
+}
+.send{
+  display: flex;
+  margin-top: 4px;
+  justify-content: center;
+}
+.meassages{
+    height: 80vh;
+    overflow: auto;
+    color: white;
+    overflow-x: hidden;
+    background-color:#3c737a ;
+}
+.sendbutton{
+    height: 3rem;
+}
+.alignleft{
+    border-radius: 10px;
+    padding: 4px;
+    background-color:#2e0f7d;
+    float: left;
+    clear: both;
+    margin: 6px;
+}
+.alignright{
+    background-color:#6e0568;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 6px;
+    float: right;
+    clear: both;
+}
+@media(max-width:1000px){
+    .send{
+        margin-top: 2px;
+        display: flex;
+        justify-content: center;
+        height: auto;
+      }
+}
